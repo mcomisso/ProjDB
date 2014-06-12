@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, 
+cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, 
+dd, ol, ul.main_nav, li, fieldset, form, label, legend, input, textarea, select, table, caption, tbody, 
+tfoot, tr, th, td, details, figure, figcaption, hgroup, menu, 
+footer, header, nav, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	background-image:url(../img/sfondo.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+#up{
+	overflow:hidden;
+	text-align:center;
+	margin-top:2%;
+}
+#grim{
+	display:inline-block;
+	margin: 0 auto;
+	background-image:url(../img/scritta_grim.png);
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	width:40%;
+	min-height:110px;
+	opacity: 0.5;
+}
+#logout{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	color:black;
+	border:none;
+	width:100px;
+	height:70px;
+	background-color:#D1F274;
+	float:right;
+	margin-right:50px;
+	border-radius: 10px;
+	text-decoration: none !important;
+}
+#logout:hover{
+	color:red;
+}
+
+.bottoni{
+	border:none;
+	width: 70%;
+	height: 150px;
+	border-radius: 10px;
+	margin: 1% 15% 2%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:3em;
+	color:white;
+}
+.bottoni:hover{
+	color:black;
+}
+#lista{
+	margin-top:3%;
+	background-color:#A8DBA8;
+}
+#aggiungi{
+	background-color:#79BD9A;
+}
+#ricerca{
+	background-color:#3B8686;
+}

@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, 
+cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, 
+dd, ol, ul.main_nav, li, fieldset, form, label, legend, input, textarea, select, table, caption, tbody, 
+tfoot, tr, th, td, details, figure, figcaption, hgroup, menu, 
+footer, header, nav, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	background-image:url(../img/sfondo.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+#up{
+	overflow:hidden;
+	text-align:center;
+	margin-top:2%;
+}
+#grim{
+	display:inline-block;
+	margin: 0 auto;
+	background-image:url(../img/scritta_grim.png);
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	width:40%;
+	min-height:110px;
+	opacity: 0.5;
+}
+#logout{
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	color:black;
+	border:none;
+	width:100px;
+	height:70px;
+	background-color:#D1F274;
+	float:right;
+	margin-right:50px;
+	border-radius: 10px;
+	text-decoration: none !important;
+}
+#logout:hover{
+	color:red;
+}
+#tag{	
+	overflow: hidden;
+	margin-bottom: 2%;
+	text-align: center;
+}
+#go{
+	display: none;
+}
+#recipeDiv{
+	display: inline-block;
+	width:45%;
+	margin-left:15%;
+	
+	/*
+	background-color:#3B8686;
+	*/
+	overflow:hidden;
+}
+#ingredientDiv{
+	text-align: center;
+	display: inline-block;
+	width: 20%;
+	margin-right: 15%;
+	float: right;
+	/* background-color:#3B8686; */
+	overflow: hidden;
+}
+.label{
+	float: left;
+	margin-left:10%;
+	display:block;
+	color:white;
+	font-size:1.5em;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:100;
+}
+.inserimento{
+	border:none;
+	background-color:#CFF09E;
+	margin:0% 15% 2%;
+	width:70%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:100;
+	font-size:1em;
+	color:#3B8686;
+}
+.text{
+	min-height:50px;
+	overflow:scroll;
+}
+#veg{
+	margin:0% 15% 2%;
+}
+#sub{
+	display: none;
+	float:none;
+	padding:5px;
+	color: #3B8686;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	border: none;
+	background-color: #CFF09E;
+}
+#sub:hover{
+	color:#0B486B;
+}
+button{
+	color: #3B8686;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	border: none;
+	background-color: #CFF09E;
+}
+.listsel{
+	margin-top:5%;
+	margin-bottom:5%;
+	min-width:auto;
+	width:100%;
+	color:#CFF09E;
+	background:rgba(153,153,153,0.5);
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.25em;
+}
+.opt{
+	background:rgba(153,153,153,0.5);
+	border-bottom: 2px solid purple; 
+}
+.ingbut{
+	float: none;	
+	padding:5px;
+}
+.ingbut:hover{
+	color:#0B486B;
+}
+.error{
+	background-color: red;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	border: none;
+}
+#harray{
+	visibility: hidden;
+}
